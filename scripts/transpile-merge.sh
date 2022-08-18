@@ -8,7 +8,7 @@ if [[ -f "ERC721A/package.json" ]]; then
 	git reset --hard origin/main;
 	cd ..;
 else
-	git clone https://github.com/chiru-labs/ERC721A.git;
+	git clone https://github.com/skarard/ERC721A.git;
 fi
 
 # Get the last commit hash of ERC721A
@@ -48,4 +48,4 @@ echo "Committing latest code";
 git config user.name 'github-actions';
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com';
 git add -A;
-(git commit -m "Transpile chiru-labs/ERC721A@$commit" && git push origin main) || echo "No changes to commit";
+(git commit -m "Transpile skarard/ERC721A@$commit" && git push origin main) || echo "No changes to commit";
