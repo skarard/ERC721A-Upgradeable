@@ -16,6 +16,16 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+### Soulbound NFTs
+This fork of [ERC721A](https://github.com/chiru-labs/ERC721A) is an implementation of an SBT (Soulbound NFT) or a non-transferable NFT (NTT). This token is soulbound to the owner of the token at mint. The token owner is able to burn their token at will.
+
+Soulbound NFTs are an ideal methodology for creating a web3 identity. A community member's web3 identity will be curated from token present on their wallet. 
+
+The current trend of NFT projects is to move away from a members club into a DAO or other community govern society. These newly forming decentralized societies are often govern by the largest financial interest, this metric is not a good measure of societial value as it doesn't account for humanitian metrics like environmental impact and compassion.
+
+A Soulbound NFT ensures credibility, reputation and experience is not bought by the highest bidder. A community member's societial value can be determined by their web3 identity made of non-transferable SBTs.
+
+### ERC721A
 
 This repository hosts the Upgradeable variant of [ERC721A](https://github.com/chiru-labs/ERC721A), meant for use in upgradeable contracts. This variant is available as separate package called `erc721a-upgradeable`.
 
